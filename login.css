@@ -1,0 +1,287 @@
+#logo
+{
+  margin-bottom: 20px;
+}
+
+#tools
+{
+  float: left;
+  font-family: Verdana;
+  font-size: 11px;
+  margin-top: 10px;
+}
+
+#tools #header
+{
+  background-color: #DDDDDD;
+  border-bottom: 1px solid black;
+  padding: 0px;
+  margin: 0px;
+}
+
+#tools #header h1
+{
+  text-align: center;
+  font-size: 12px;
+  font-weight: bold;
+  margin: 0px;
+  padding-bottom: 2px;
+  padding-top: 2px;
+}
+
+#tools #content
+{
+  border-left: 3px double black;
+}
+
+#tools a:link
+{
+  color: #777777;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+#tools a:visited
+{
+  color: #777777;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+#tools a:hover
+{
+  color: red;
+}
+
+#tools a:active
+{
+  color: green;
+  text-decoration: underline;
+}
+
+#tools #main
+{
+  list-style-image: url(/img/login.png);
+}
+
+#tools #content #recover
+{
+  list-style-image: url(/img/lostpasswd.gif);
+}
+
+#tools #main span, #tools #recover span
+{
+  vertical-align: super;
+}
+
+#login
+{
+  float: left;
+  margin-left: 130px;
+  margin-top: 25px;
+}
+
+#login #box
+{
+  width: 350px;
+}
+
+#login #header
+{
+  padding-top: 2px;
+  padding-bottom: 2px;
+  margin-bottom: 5px;
+}
+
+#login #header h1
+{
+  text-align: left;
+  color: #1111AA;
+  font-size: 14px;
+  font-family: Verdana;
+  font-weight: bold;
+  padding: 0px;
+  margin: 0px;
+}
+
+#login #header p
+{
+  font-family: Verdana;
+  font-size: 11px;
+  text-align: left;
+  margin-top: 0px;
+}
+
+#login #username span,#login #password span
+{
+  font-weight: bold;
+  font-family: Verdana;
+  font-size: 11px;
+}
+
+#login #username input
+{
+  margin-left: 20px;
+  width: 130px;
+  height: 20px;
+  font-family: Verdana;
+  font-size: 11px;
+}
+
+#login #password input
+{
+  margin-left: 24px;
+  width: 130px;
+  height: 20px;
+  font-family: Verdana;
+  font-size: 11px;
+}
+
+#login #username
+{
+  margin-bottom: 3px;
+}
+
+#login #submit input
+{
+  margin-top: 3px;
+  margin-left: 162px;
+}
+
+#recoverform
+{
+  float: left;
+  width: 450px;
+  margin-left: 130px;
+  margin-top: 25px;
+}
+
+#recoverform #header
+{
+  padding-top: 2px;
+  padding-bottom: 2px;
+  margin-bottom: 5px;
+}
+
+#recoverform #header h1
+{
+  text-align: left;
+  color: #1111AA;
+  font-size: 14px;
+  font-family: Verdana;
+  font-weight: bold;
+  padding: 0px;
+  margin: 0px;
+}
+
+#recoverform #header p
+{
+  font-family: Verdana;
+  font-size: 11px;
+  text-align: left;
+  margin-top: 0px;
+}
+
+#recoverform #username span, #recoverform #email span
+{
+  font-weight: bold;
+  font-family: Verdana;
+  font-size: 11px;
+}
+
+#recoverform #username input
+{
+  margin-left: 20px;
+  width: 130px;
+  height: 20px;
+  font-family: Verdana;
+  font-size: 11px;
+}
+
+#recoverform #email input
+{
+  margin-left: 50px;
+  width: 130px;
+  height: 20px;
+  font-family: Verdana;
+  font-size: 11px;
+}
+
+#recoverform #username
+{
+  margin-bottom: 3px;
+}
+
+#recoverform #submit input
+{
+  margin-top: 3px;
+  margin-left: 162px;
+}
+
+#recoversent
+{
+  width: 450px;
+  float: left;
+  margin-left: 130px;
+  margin-top: 25px;
+}
+
+#recoversent h1
+{
+  text-align: left;
+  color: #1111AA;
+  font-size: 14px;
+  font-family: Verdana;
+  font-weight: bold;
+  padding: 0px;
+  margin: 0px;
+}
+
+#recoversent p
+{
+  font-family: Verdana;
+  font-size: 11px;
+  text-align: left;
+  margin-top: 0px;
+}
+
+#recoverdone
+{
+  width: 450px;
+  float: left;
+  margin-left: 130px;
+  margin-top: 25px;
+}
+
+#recoverdone h1
+{
+  text-align: left;
+  color: #1111AA;
+  font-size: 14px;
+  font-family: Verdana;
+  font-weight: bold;
+  padding: 0px;
+  margin: 0px;
+}
+
+#recoverdone p
+{
+  font-family: Verdana;
+  font-size: 11px;
+  text-align: left;
+  margin-top: 0px;
+}
+
+#signature
+{
+  clear: both;
+  padding-top: 60px;
+}
+
+#signature small
+{
+  color: #AAAAAA;
+  font-size: 9px;
+  font-family: Verdana;
+  font-style: italic;
+}

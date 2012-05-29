@@ -1,0 +1,795 @@
+#logo
+{
+  margin-bottom: 20px;
+}
+
+#menu
+{
+  width: 190px;
+  margin-top: 10px;
+  float: left;
+}
+
+a:link
+{
+  color: #777777;
+  text-decoration: none;
+}
+
+a:visited
+{
+  color: #777777;
+  text-decoration: none;
+}
+
+a:hover
+{
+  color: red;
+  text-decoration: none;
+}
+
+a:active
+{
+  color: green;
+  text-decoration: underline;
+}
+
+#tasks #header
+{
+  background-color: #DDDDDD;
+  border-bottom: 1px solid black;
+  margin: 0px;
+  padding: 0px;
+}
+
+#tasks #header h1
+{
+  text-align: center;
+  font-family: Verdana;
+  font-size: 12px;
+  font-weight: bold;
+  padding-top: 2px;
+  padding-bottom: 2px;
+  margin: 0px;
+}
+
+#tasks #content
+{
+  font-family: Verdana;
+  font-size: 11px;
+  font-weight: bold;
+  border-left: 3px double black;
+}
+
+#tasks #content li
+{
+  margin-bottom: 4px;
+}
+
+#tasks #content #select
+{
+  list-style-image: url(/img/select.gif);
+}
+
+#tasks #content #logs
+{
+  list-style-image: url(/img/viewlog.png);
+}
+
+#tasks #content #logout
+{
+  list-style-image: url(/img/logout.png);
+}
+
+#tasks #content span
+{
+  vertical-align: super;
+}
+
+#section
+{
+  float: left;
+  margin-left: 80px;
+  margin-top: 20px;
+}
+
+
+
+#menu #seldom #header
+{
+  padding: 0px;
+  margin-bottom: 5px;
+}
+
+#seldom #header h1
+{
+  font-family: Verdana;
+  font-size: 14px;
+  font-weight: bold;
+  color: #1111AA;
+  padding: 0px;
+  margin: 0px;
+}
+
+#seldom #header p
+{
+  font-family: Verdana;
+  font-size: 11px;
+  margin-top: 0px;
+}
+
+#seldom #content #header #domain
+{
+  float: left;
+  width: 400px;
+  color: #1111AA;
+  font-family: Verdana;
+  font-size: 11px;
+}
+
+#seldom #content #header #select
+{
+  color: #1111AA;
+  font-family: Verdana;
+  font-size: 11px;
+}
+
+#seldom #domlist
+{
+  margin-top: 6px;
+}
+
+#seldom #domlist #domentry #domain
+{
+  clear: left;
+  float: left;
+  width: 400px;
+  height: 32px;
+}
+
+#seldom #domlist #domentry #domain p
+{
+  font-family: Verdana;
+  font-size: 11px;
+  font-weight: bold;
+}
+
+#seldom #domlist #domentry #select
+{
+  float: left;
+  clear: right;
+  background-image: url(/img/select_big.gif);
+  width: 32px;
+  height: 32px;
+}
+
+#seldom #domlist #domentry #select span
+{
+  display: none;
+}
+
+#seldom #summary
+{
+  clear: left;
+  float: left;
+  margin-top: 15px;
+  font-family: Verdana;
+  font-size: 12px;
+}
+
+#seldom #summary #totaldoms
+{
+  float: left;
+  margin-right: 25px;
+  font-style: italic;
+}
+
+#seldom #summary #update
+{
+  font-weight: bold;
+}
+
+
+#menu #domain
+{
+  margin-top: 40px;
+}
+
+#domain #header
+{
+  background-color: #DDDDDD;
+  border-bottom: 1px solid black;
+  margin: 0px;
+  padding: 0px;
+}
+
+#domain #header h1
+{
+  text-align: center;
+  font-family: Verdana;
+  font-size: 12px;
+  font-weight: bold;
+  padding-top: 2px;
+  padding-bottom: 2px;
+  margin: 0px;
+}
+
+#domain #content
+{
+  border-left: 3px double black;
+  font-family: Verdana;
+  font-size: 11px;
+  font-weight: bold;
+}
+
+#domain #content li
+{
+  margin-bottom: 4px;
+}
+
+#domain #content #reg_soa
+{
+  list-style-image: url(/img/soa.png);
+}
+
+#domain #content #reg_a
+{
+  list-style-image: url(/img/reg_a.png);
+}
+
+#domain #content #reg_aaaa
+{
+  list-style-image: url(/img/reg_aaaa.png);
+}
+
+#domain #content #reg_cname
+{
+  list-style-image: url(/img/reg_cname.png);
+}
+
+#domain #content #reg_mx
+{
+  list-style-image: url(/img/reg_mx.png);
+}
+
+#domain #content #reg_txt
+{
+  list-style-image: url(/img/reg_txt.png);
+}
+
+#domain #content #reg_ns
+{
+  list-style-image: url(/img/reg_ns.png);
+}
+
+#domain #content span
+{
+  vertical-align: super;
+}
+
+
+#menu #logs #header
+{
+  padding: 0px;
+  margin-bottom: 5px;
+}
+
+#logs #header h1
+{
+  font-family: Verdana;
+  font-size: 14px;
+  font-weight: bold;
+  color: #1111AA;
+  padding: 0px;
+  margin: 0px;
+}
+
+#logs #header p
+{
+  font-family: Verdana;
+  font-size: 11px;
+  margin-top: 0px;
+}
+
+#logs #content #header #date
+{
+  float: left;
+  width: 360px;
+  color: #1111AA;
+  font-family: Verdana;
+  font-size: 11px;
+}
+
+#logs #content #header #ip
+{
+  color: #1111AA;
+  font-family: Verdana;
+  font-size: 11px;
+}
+
+#logs #entries
+{
+  margin-top: 5px;
+  font-family: Verdana;
+  font-size: 11px;
+}
+
+#logs #entries #entry
+{
+  margin-bottom: 3px;
+}
+
+#logs #entries #entry #date
+{
+  float: left;
+  width: 360px;
+}
+
+
+#confirmation_message
+{
+  margin-bottom: 30px;
+  margin-left: 30px;
+  color: #20BF55;
+  font-weight: bold;
+  font-family: Verdana;
+  font-size: 11px;
+}
+
+
+#soa
+{
+  width: 500px;
+}
+
+#soa #header h1
+{
+  font-family: Verdana;
+  font-size: 14px;
+  font-weight: bold;
+  color: #1111AA;
+  padding: 0px;
+  margin: 0px;
+}
+
+#soa #header p
+{
+  font-family: Verdana;
+  font-size: 11px;
+  margin-top: 0px;
+}
+
+#soa #content
+{
+  font-family: Verdana;
+  font-size: 11px;
+  margin-top: 30px;
+}
+
+#soa #content div
+{
+  margin-bottom: 3px;
+}
+
+#soa #content span
+{
+  margin-right: 15px;
+  font-weight: bold;
+}
+
+#soa #content #ttl input
+{
+  margin-left: 19px;
+}
+
+#soa #content #ns input
+{
+  margin-left: 15px;
+}
+
+#soa #content #email input
+{
+  margin-left: 16px;
+}
+
+#soa #content #refresh input
+{
+  margin-left: 62px;
+}
+
+#soa #content #retry input
+{
+  margin-left: 77px;
+}
+
+#soa #content #expiry input
+{
+  margin-left: 70px;
+}
+
+#soa #content #submit input
+{
+  margin-top: 10px;
+  margin-left: 238px;
+}
+
+
+#reglist
+{
+  width: 650px;
+}
+
+#reglist #header h1
+{
+  font-family: Verdana;
+  font-size: 14px;
+  font-weight: bold;
+  color: #1111AA;
+  padding: 0px;
+  margin: 0px;
+}
+
+#reglist #header p
+{
+  font-family: Verdana;
+  font-size: 11px;
+  margin-top: 0px;
+}
+
+#reglist #content
+{
+  font-family: Verdana;
+  font-size: 11px;
+  margin-top: 30px;
+}
+
+#reglist #content #header
+{
+  color: #1111AA;
+  font-family: Verdana;
+  font-size: 11px;
+}
+
+#reglist #content #header #host
+{
+  float: left;
+  width: 220px;
+}
+
+#reglist #content #header #type
+{
+  float: left;
+  width: 90px;
+}
+
+#reglist #content #header #dest
+{
+  float: left;
+  width: 200px;
+}
+
+#reglist #content #header #dele
+{
+  float: left;
+  width: 80px;
+}
+
+#reglist #content #entries
+{
+  clear: both;
+  padding-top: 10px;
+}
+
+#reglist #content #entries #entry #dest input
+{
+  font-family: Verdana;
+  font-size: 11px;
+  width: 160px;
+}
+
+#reglist #content #entries #entry
+{
+  padding-bottom: 27px;
+}
+
+#reglist #content #entries #entry #host
+{
+  float: left;
+  width: 220px;
+}
+
+#reglist #content #entries #entry #type
+{
+  float: left;
+  width: 90px;
+  font-weight: bold;
+  padding-top: 3px;
+}
+
+#reglist #content #entries #entry #dest
+{
+  float: left;
+  width: 200px;
+}
+
+#reglist #content #entries #entry #dele
+{
+  float: left;
+  background-image: url(/img/delete.png);
+  width: 24px;
+  height: 24px;
+  margin-left: 5px;
+}
+
+#reglist #content #entries #entry #dele span
+{
+  display: none;
+}
+
+#reglist #content #submit input
+{
+  margin-top: 20px;
+  margin-left: 428px;
+}
+
+#reglist #addnew
+{
+  margin-bottom: 60px;
+  font-family: Verdana;
+  font-size: 11px;
+}
+
+#reglist #addnew h1
+{
+  color: #1111AA;
+  font-family: Verdana;
+  font-size: 11px;
+}
+
+#reglist #addnew #host
+{
+  float: left;
+  margin-right: 18px;
+}
+
+#reglist #addnew #host input
+{
+  font-family: Verdana;
+  font-size: 11px;
+  text-align: right;
+  width: 120px;
+}
+
+#reglist #addnew #type
+{
+  float: left;
+  font-weight: bold;
+  margin-right: 18px;
+  padding-top: 3px;
+}
+
+#reglist #addnew #dest
+{
+  float: left;
+  margin-right: 10px;
+}
+
+#reglist #addnew #dest input
+{
+  font-family: Verdana;
+  font-size: 11px;
+  width: 120px;
+}
+
+#reglist #addnew #addbutton
+{
+  float: left;
+  clear: right;
+}
+
+#mxregs #header h1
+{
+  font-family: Verdana;
+  font-size: 14px;
+  font-weight: bold;
+  color: #1111AA;
+  padding: 0px;
+  margin: 0px;
+}
+
+#mxregs #header p
+{
+  font-family: Verdana;
+  font-size: 11px;
+  margin-top: 0px;
+}
+
+#mxregs #addnew
+{
+  margin-top: 30px;
+  margin-bottom: 60px;
+  font-family: Verdana;
+  font-size: 11px;
+}
+
+#mxregs #addnew h1
+{
+  color: #1111AA;
+  font-family: Verdana;
+  font-size: 11px;
+}
+
+#mxregs #addnew #host
+{
+  float: left;
+  margin-right: 18px;
+}
+
+#mxregs #addnew #host input
+{
+  font-family: Verdana;
+  font-size: 11px;
+  text-align: right;
+  width: 120px;
+}
+
+#mxregs #addnew #type
+{
+  float: left;
+  font-weight: bold;
+  margin-right: 18px;
+  padding-top: 3px;
+}
+
+#mxregs #addnew #prio
+{
+  float: left;
+  margin-right: 30px;
+}
+
+#mxregs #addnew #prio input
+{
+  font-family: Verdana;
+  font-size: 11px;
+  text-align: center;
+  width: 30px;
+  margin-left: 3px;
+}
+
+#mxregs #addnew #dest
+{
+  float: left;
+  margin-right: 10px;
+}
+
+#mxregs #addnew #dest input
+{
+  font-family: Verdana;
+  font-size: 11px;
+  width: 120px;
+}
+
+#mxregs #addnew #addbutton
+{
+  float: left;
+  clear: right;
+}
+
+#mxregs #content
+{
+  font-family: Verdana;
+  font-size: 11px;
+}
+
+#mxregs #content #header
+{
+  color: #1111AA;
+  font-family: Verdana;
+  font-size: 11px;
+}
+
+#mxregs #content #header #host
+{
+  float: left;
+  width: 220px;
+}
+
+#mxregs #content #header #type
+{
+  float: left;
+  width: 90px;
+}
+
+#mxregs #content #header #prio
+{
+  float: left;
+  width: 50px;
+}
+
+#mxregs #content #header #dest
+{
+  float: left;
+  width: 160px;
+}
+
+#mxregs #content #header #dele
+{
+  float: left;
+  width: 80px;
+}
+
+#mxregs #content #entries
+{
+  clear: both;
+  padding-top: 10px;
+}
+
+#mxregs #content #entries #entry
+{
+  padding-bottom: 27px;
+}
+
+#mxregs #content #entries #entry #host
+{
+  float: left;
+  width: 220px;
+  padding-top: 5px;
+}
+
+#mxregs #content #entries #entry #type
+{
+  float: left;
+  width: 90px;
+  font-weight: bold;
+  padding-top: 4px;
+}
+
+#mxregs #content #entries #entry #prio
+{
+  float: left;
+  width: 51px;
+  padding-top: 3px;
+}
+
+#mxregs #content #entries #entry #prio input
+{
+  width: 30px;
+  text-align: center;
+  margin-left: 5px;
+  font-family: Verdana;
+  font-size: 11px;
+}
+
+#mxregs #content #entries #entry #dest
+{
+  float: left;
+  width: 160px;
+  padding-top: 3px;
+}
+
+#mxregs #content #entries #entry #dest input
+{
+  font-family: Verdana;
+  font-size: 11px;
+  width: 120px;
+}
+
+#mxregs #content #entries #entry #dele
+{
+  float: left;
+  width: 24px;
+  height: 24px;
+  background-image: url(/img/delete.png);
+  margin-left: 3px;
+}
+
+#mxregs #content #entries #entry #dele span
+{
+  display: none;
+}
+
+#mxregs #content #submit input
+{
+  margin-top: 20px;
+  margin-left: 436px;
+}
