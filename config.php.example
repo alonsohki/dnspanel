@@ -1,0 +1,15 @@
+<?
+  $config = array(
+   'db_host'          => 'localhost',
+   'db_user'          => 'username',
+   'db_pass'          => 'password',
+   'db_db'            => 'database',
+   'session_timeout'  => 300,  /* In seconds */
+   'token_expiration' => 10  , /* In minutes */
+   'real_host'        => 'dns.mydomain.com',
+   'mail_from'        => 'dns@mydomain.com',
+   'signature'        => 'DNS Control panel - mydomain.com',
+   'zones_path'       => '/etc/bind/sec',
+   'restart_rndc'     => true
+  );
+?>
