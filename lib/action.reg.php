@@ -131,7 +131,7 @@
       $zone->ApplyChanges();
     }
 ?>
-  <meta http-equiv="refresh" content="0; /panel.php?action=reg&t=<?=$type?>" />
+  <meta http-equiv="refresh" content="0; panel.php?action=reg&t=<?=$type?>" />
 <?
   }
 ?>

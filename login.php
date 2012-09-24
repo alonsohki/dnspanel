@@ -27,7 +27,7 @@
     <link rel="stylesheet" type="text/css" href="login.css" />
   </head>
   <body onload="focusLogin();">
-    <div id="logo"><img src="/img/logo.png" /></div>
+    <div id="logo"><img src="img/logo.png" /></div>
     <div id="tools">
       <div id="header">
         <h1>Tools</h1>

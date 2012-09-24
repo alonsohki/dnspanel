@@ -68,17 +68,17 @@ a:active
 
 #tasks #content #select
 {
-  list-style-image: url(/img/select.gif);
+  list-style-image: url(img/select.gif);
 }
 
 #tasks #content #logs
 {
-  list-style-image: url(/img/viewlog.png);
+  list-style-image: url(img/viewlog.png);
 }
 
 #tasks #content #logout
 {
-  list-style-image: url(/img/logout.png);
+  list-style-image: url(img/logout.png);
 }
 
 #tasks #content span
@@ -158,7 +158,7 @@ a:active
 {
   float: left;
   clear: right;
-  background-image: url(/img/select_big.gif);
+  background-image: url(img/select_big.gif);
   width: 32px;
   height: 32px;
 }
@@ -229,37 +229,37 @@ a:active
 
 #domain #content #reg_soa
 {
-  list-style-image: url(/img/soa.png);
+  list-style-image: url(img/soa.png);
 }
 
 #domain #content #reg_a
 {
-  list-style-image: url(/img/reg_a.png);
+  list-style-image: url(img/reg_a.png);
 }
 
 #domain #content #reg_aaaa
 {
-  list-style-image: url(/img/reg_aaaa.png);
+  list-style-image: url(img/reg_aaaa.png);
 }
 
 #domain #content #reg_cname
 {
-  list-style-image: url(/img/reg_cname.png);
+  list-style-image: url(img/reg_cname.png);
 }
 
 #domain #content #reg_mx
 {
-  list-style-image: url(/img/reg_mx.png);
+  list-style-image: url(img/reg_mx.png);
 }
 
 #domain #content #reg_txt
 {
-  list-style-image: url(/img/reg_txt.png);
+  list-style-image: url(img/reg_txt.png);
 }
 
 #domain #content #reg_ns
 {
-  list-style-image: url(/img/reg_ns.png);
+  list-style-image: url(img/reg_ns.png);
 }
 
 #domain #content span
@@ -515,7 +515,7 @@ a:active
 #reglist #content #entries #entry #dele
 {
   float: left;
-  background-image: url(/img/delete.png);
+  background-image: url(img/delete.png);
   width: 24px;
   height: 24px;
   margin-left: 5px;
@@ -779,7 +779,7 @@ a:active
   float: left;
   width: 24px;
   height: 24px;
-  background-image: url(/img/delete.png);
+  background-image: url(img/delete.png);
   margin-left: 3px;
 }
 

@@ -43,7 +43,7 @@
     <link rel="stylesheet" type="text/css" href="panel.css" />
   </head>
   <body>
-    <div id="logo"><img src="/img/logo.png" /></div>
+    <div id="logo"><img src="img/logo.png" /></div>
     <div id="menu">
 <?
   /* Menu */
